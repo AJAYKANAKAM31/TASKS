@@ -10,7 +10,9 @@ function handlesubmit() {
         updaterow(data)
     }
 } else {
-    updaterow(data)
+    if (count <=  3) {
+        confirm("Please select atleast 3 food items");
+    } else updaterow(data);
 }
     row = null
    resetform();
