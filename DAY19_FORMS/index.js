@@ -10,6 +10,26 @@ function handlesubmit() {
         updaterow(data)
     }
 } else {
+    if (document.getElementById("defaultCheck1").checked) {
+        count = count + 1;
+        food.push('food1')
+    }
+    if (document.getElementById("defaultCheck2").checked) {
+        count = count + 1;
+        food.push('food2')
+    }
+    if (document.getElementById("defaultCheck3").checked) {
+        count = count + 1;
+        food.push('food3')
+    }
+    if (document.getElementById("defaultCheck4").checked) {
+        count = count + 1;
+        food.push('food4')
+    }
+    if (document.getElementById("defaultCheck5").checked) {
+        count = count + 1;
+        food.push('food5')
+    }
     if (count <=  3) {
         confirm("Please select atleast 3 food items");
     } else updaterow(data);
@@ -108,6 +128,7 @@ function tablelayout(x) {
   }
 
  function updateitem(x) {
+     count = 0;
     row = x.parentElement.parentElement;
     console.log(row.cells[4]);
     document.getElementById("firstname").value = row.cells[0].innerHTML;
