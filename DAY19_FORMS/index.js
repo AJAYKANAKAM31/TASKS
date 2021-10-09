@@ -3,39 +3,36 @@ var count = 0;
 function handlesubmit() {
    var data = gatherdata();
    if (row == null) {
-    if (count >=  3) {
-        tablelayout(data)
+        if (count >=  3) {
+            tablelayout(data)
+        } else {
+            confirm("Please select atleast 3 food items");        
+            updaterow(data)
+        }
     } else {
-        confirm("Please select atleast 3 food items");        
-        updaterow(data)
+        let counter = 0;
+        if (document.getElementById("defaultCheck1").checked) {
+            counter = counter + 1;
+        }
+        if (document.getElementById("defaultCheck2").checked) {
+            counter = counter + 1;
+        }
+        if (document.getElementById("defaultCheck3").checked) {
+            counter = counter + 1;
+        }
+        if (document.getElementById("defaultCheck4").checked) {
+            counter = counter + 1;
+        }
+        if (document.getElementById("defaultCheck5").checked) {
+            counter = counter + 1;
+        }
+        console.log(counter);
+        if (counter <  3) {
+            confirm("Please select atleast 3 food items");
+        } else updaterow(data);
     }
-} else {
-    if (document.getElementById("defaultCheck1").checked) {
-        count = count + 1;
-        food.push('food1')
-    }
-    if (document.getElementById("defaultCheck2").checked) {
-        count = count + 1;
-        food.push('food2')
-    }
-    if (document.getElementById("defaultCheck3").checked) {
-        count = count + 1;
-        food.push('food3')
-    }
-    if (document.getElementById("defaultCheck4").checked) {
-        count = count + 1;
-        food.push('food4')
-    }
-    if (document.getElementById("defaultCheck5").checked) {
-        count = count + 1;
-        food.push('food5')
-    }
-    if (count <=  3) {
-        confirm("Please select atleast 3 food items");
-    } else updaterow(data);
-}
-    row = null
-   resetform();
+        row = null
+        resetform();
 }
 
 
