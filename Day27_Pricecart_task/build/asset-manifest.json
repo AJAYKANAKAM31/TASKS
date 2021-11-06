@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f788a9f.chunk.css",
+    "main.js": "/static/js/main.21556a5e.chunk.js",
+    "main.js.map": "/static/js/main.21556a5e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ebab502.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ebab502.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.d1cd383d.chunk.js": "/static/js/2.d1cd383d.chunk.js",
+    "static/js/2.d1cd383d.chunk.js.map": "/static/js/2.d1cd383d.chunk.js.map",
+    "static/js/3.ec41b92f.chunk.js": "/static/js/3.ec41b92f.chunk.js",
+    "static/js/3.ec41b92f.chunk.js.map": "/static/js/3.ec41b92f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.3f788a9f.chunk.css.map": "/static/css/main.3f788a9f.chunk.css.map",
+    "static/js/2.d1cd383d.chunk.js.LICENSE.txt": "/static/js/2.d1cd383d.chunk.js.LICENSE.txt",
+    "static/media/Shopping.2773e2ba.jpg": "/static/media/Shopping.2773e2ba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ebab502.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.d1cd383d.chunk.js",
+    "static/css/main.3f788a9f.chunk.css",
+    "static/js/main.21556a5e.chunk.js"
+  ]
+}
